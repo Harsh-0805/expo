@@ -3,10 +3,17 @@ import './App.css';
 import React from 'react';
 import "./components/Main.css";
 import Header from "./components/Header";
+import Aboutsection from './components/About';
 
 function App() {
   return (
-    <Header/>
+    
+    <BrowserRouter>
+    <Header />
+    <Aboutsection />
+    </BrowserRouter>
+    
+    
   );
 }
 

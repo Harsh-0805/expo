@@ -1,0 +1,20 @@
+#img_and_para{ 
+    display: flex; 
+    flex-direction: row; 
+ 
+} 
+#image{ 
+        height:20rem; 
+} 
+@media (max-width: 1000px) { 
+    #image{ 
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 50%; 
+        height:50%; 
+    } 
+    #img_and_para { 
+      flex-direction: column; 
+    } 
+  }
