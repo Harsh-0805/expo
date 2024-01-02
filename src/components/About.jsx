@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import about from"./aboutexpo.png"
+import about from '../assets/aboutexpo.png';
 
 
 
