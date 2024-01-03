@@ -3,6 +3,7 @@ import ecellLogoWhite from "../assets/ecell_logo.png";
 
 const Footer = () => {
   return (
+
     <footer id="contact" className="bg-[#1c1c1c] text-white text-center">
       <div className="px-4 pt-16 pb-6 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">

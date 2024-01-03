@@ -2,13 +2,13 @@ import React from "react";
 import {BrowserRouter} from "react-router-dom";
 import Aboutsection from './components/About';
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+import Homepage from "./components/Homepage";
 
 function App() 
 {
   return (
     <BrowserRouter>
-    <Navbar/>
+    <Homepage/>
     <Aboutsection/>
     <Footer/>
     </BrowserRouter>
