@@ -26,9 +26,9 @@ function Homepage() {
       </NavbarCollapse>
     </Navbar>
     <div className='bg-black h-screen'>
-      <div className='flex gap-10 absolute top-2/3 left-1/3'>
-      <Button className="px-8 py-4 bg-gradient-to-r from-red-500 to-red-800 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg">Register</Button>
-      <Button className="px-8 py-4 bg-gradient-to-r from-red-500 to-red-800 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg">Contact Us</Button>
+      <div className='flex gap-10 absolute top-2/3 w-full justify-center'>
+      <Button className="w-2/12 px-8 py-4 bg-gradient-to-r from-red-500 to-red-800 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg md:w-1/3">Register</Button>
+      <Button className="w-2/12 px-8 py-4 bg-gradient-to-r from-red-500 to-red-800 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg md:w-1/3">Contact Us</Button>
       </div>
     </div>
     </>
