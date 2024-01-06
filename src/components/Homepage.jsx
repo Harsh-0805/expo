@@ -6,7 +6,6 @@ import {
   NavbarCollapse,
   NavbarLink,
   NavbarToggle,
-  CustomFlowbiteTheme,
 } from "flowbite-react";
 import Logo from "../assets/logo.webp";
 import Ecell from "../assets/ecell-white-img.webp";

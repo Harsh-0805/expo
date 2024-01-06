@@ -1,7 +1,9 @@
 .timeline {
   background-image: url("../assets/red-grunge-background.jpg");
+  background-attachment: fixed;
 }
 
 .home {
   background-image: url("../assets/frontpage.jpg");
+  background-attachment: fixed;
 }
