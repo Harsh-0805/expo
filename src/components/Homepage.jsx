@@ -16,7 +16,7 @@ function Homepage() {
   return (
     <>
       <div className="home bg-no-repeat bg-cover">
-        <Navbar fluid className="bg-red-700">
+        <Navbar fluid className="bg-red-700 fixed w-full z-10">
           <NavbarBrand>
             <a href="https://www.ecellvnit.org/">
               <img src={Ecell} alt="logo" className="mr-3 h-6 sm:h-9" />
@@ -24,10 +24,10 @@ function Homepage() {
             <img src={Logo} alt="logo" className="mr-3 h-6 sm:h-9" />
           </NavbarBrand>
 
-          {/* <div className="flex md:order-2">
-        <Button href="https://www.ecellvnit.org/" className="bg-black hover:bg-red-500">E-Cell</Button>
+          <div className="flex md:order-2">
+        <Button href="https://www.ecellvnit.org/" className="bg-black hover:bg-red-500 w-40">E-Cell</Button>
         <NavbarToggle />
-      </div> */}
+      </div>
           <NavbarCollapse>
             <NavbarLink href="#" className="text-2xl">
               Home
