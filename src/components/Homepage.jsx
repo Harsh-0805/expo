@@ -14,7 +14,7 @@ import "./global.css";
 function Homepage() {
   return (
     <>
-      <div className="home bg-no-repeat bg-cover">
+      <div className="">
         <Navbar fluid className="bg-red-700  w-full z-10">
           <NavbarBrand>
             <a href="https://www.ecellvnit.org/">
@@ -30,16 +30,16 @@ function Homepage() {
             <NavbarLink href="#" className="text-white text-2xl">
               Home
             </NavbarLink>
-            <NavbarLink href="#" className="text-white text-2xl">
+            <NavbarLink href="#about" className="text-white text-2xl">
               About Expo
             </NavbarLink>
-            <NavbarLink href="#" className="text-white text-2xl">
+            <NavbarLink href="#timeline" className="text-white text-2xl">
               Timeline
             </NavbarLink>
             <NavbarLink href="#" className="text-white text-2xl">
               Brochure
             </NavbarLink>
-            <NavbarLink href="#" className="text-white text-2xl">
+            <NavbarLink href="#contact" className="text-white text-2xl">
               Contact Us
             </NavbarLink>
           </NavbarCollapse>
@@ -54,8 +54,8 @@ function Homepage() {
             </Button>
           </div>
         </div> */}
-        <div className=" bg-gray-900  bg-blend-difference bg-cover bg-origin-border bg-center">
-          <div className=" bg-gradient-to-b from-[rgba(0,0,0,0.4)] to-[rgb(0,0,0,0.9)] bg-opacity-[0.5]">
+        <div className="bg-no-repeat bg-cover home bg-gray-900  bg-blend-difference bg-origin-border bg-center">
+          <div className=" bg-gradient-to-b from-[rgba(0,0,0,0.2)] to-[rgb(0,0,0,0.8)] bg-opacity-[0.5]">
             {/* <Navbar /> */}
             <div className="flex flex-col justify-center items-center text-white px-4 md:py-4 lg:py-10 xl:px-20">
               <div className="grid grid-rows-1 gap-4 items-center">
@@ -70,15 +70,15 @@ function Homepage() {
                 <div className="flex flex-col gap-8 md:gap-16 pt-8 justify-center items-center">
                   <div className="flex flex-col items-center md:items-start md:flex-row justify-center gap-8 md:gap-16 w-full h-full">
                     <a
-                      href="#form"
-                      className="bg-[#ff5757] hover:bg-red-500 p-4 w-3/4 md:w-1/4 lg:w-1/6 text-2xl text-center"
+                      href="#reg"
+                      className="bg-gradient-to-r from-red-500 to-red-800 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg  p-4 w-3/4 md:w-1/4 lg:w-1/6 text-2xl text-center"
                     >
                       Register
                     </a>
                     <a
                       href="https://drive.google.com/file/d/1UXup2gcrdkC8_WR1u1gMIHfyxiITEFlH/view"
                       target="_blank"
-                      className="bg-[#ff5757] hover:bg-red-500 p-4 w-3/4 md:w-1/4 lg:w-1/6 text-2xl text-center"
+                      className="bg-gradient-to-r from-red-500 to-red-800 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg  p-4 w-3/4 md:w-1/4 lg:w-1/6 text-2xl text-center"
                     >
                       Brochure
                     </a>

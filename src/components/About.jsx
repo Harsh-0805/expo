@@ -58,7 +58,7 @@ const AboutSection = () => {
               should complete this form:
             </p>
             <button className="text-[#ffffff] w-[200px] font-medium my-8 mx-auto md:mx-0 py-3 bg-[#000300] hover:scale-105 hover:text-white duration-200">
-              <a href="#form">Register Now</a>
+              <a href="#reg">Register Now</a>
             </button>
           </div>
         </div>

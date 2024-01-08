@@ -96,7 +96,10 @@ const Timeline = () => {
           </li>
         </ul>
       </div> */}
-      <div class="container timeline bg-gray-200 mx-auto w-full h-full">
+      <div
+        id="timeline"
+        class="container timeline bg-gray-200 mx-auto w-full h-full"
+      >
         <div className="p-4 justify-center items-center text-center">
           <h1 className="text-3xl font-bold text-red-500">
             TIMELINE OF EXPO'24
