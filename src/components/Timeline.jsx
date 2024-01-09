@@ -96,88 +96,84 @@ const Timeline = () => {
           </li>
         </ul>
       </div> */}
-      <div
-        id="timeline"
-        class="container timeline bg-gray-200 mx-auto w-full h-full"
-      >
-        <div className="p-4 justify-center items-center text-center">
-          <h1 className="text-3xl font-bold text-red-500">
-            TIMELINE OF EXPO'24
-          </h1>
-        </div>
-        <div class="relative wrap overflow-hidden p-10 h-full">
-          <div
-            class="border-2-2 absolute border-opacity-20 bg-white border-white  h-full border-2"
-            style={{ left: "50%" }}
-          ></div>
-          {/* <!-- right timeline --> */}
-          <div class="mb-8 flex justify-between items-center w-full right-timeline">
-            <div class="order-1 w-5/12"></div>
-            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-              <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
-            </div>
-            <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-              <h3 class="mb-3 font-bold text-gray-800 text-xl">
-                Registration Starts :{" "}
-              </h3>
-              <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-                Startups will be evaluated on the basis of their market &
-                customer base and their product showcasing capability.
-              </p>
-            </div>
-          </div>
+      <div className="w-full timeline py-16 text-white" id="timeline">
+        <div>
+          <h1 className="text-3xl font-bold text-center py-4">TIMELINE</h1>
 
-          {/* <!-- left timeline --> */}
-          <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-            <div class="order-1 w-5/12"></div>
-            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-              <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
+          <div className="max-w-7xl mx-auto grid grid-cols-9 px-4 py-10">
+            <div className="col-span-4 w-full h-full ">
+              <div className="w-full h-full p-2 md:pl-4">
+                <h1 className="text-white text-xl font-medium py-2">
+                  4th March Registration Opens
+                </h1>
+                <p className="text-gray-100 sm:text-sm text-xs">
+                  Startups will be evaluated on the basis of their market &
+                  customer base and their product showcasing capability.
+                </p>
+              </div>
             </div>
-            <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-              <h3 class="mb-3 font-bold text-white text-xl">
-                Registration Ends :{" "}
-              </h3>
-              <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-                Deadline for the registration of startups for Expo.
-              </p>
+            <div className="relative col-span-1 w-full h-full flex justify-center items-center">
+              <div className="h-full w-1 bg-white"></div>
+              <div className="absolute w-10 h-10 rounded-full bg-gray-800 text-white text-3xl text-center">
+                1
+              </div>
             </div>
-          </div>
+            <div className="col-span-4 w-full h-full"></div>
 
-          {/* <!-- right timeline --> */}
-          <div class="mb-8 flex justify-between items-center w-full right-timeline">
-            <div class="order-1 w-5/12"></div>
-            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-              <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
+            <div className="col-span-4 w-full h-full"></div>
+            <div className="relative col-span-1 w-full h-full flex justify-center items-center">
+              <div className="h-full w-1 bg-white"></div>
+              <div className="absolute w-10 h-10 rounded-full bg-gray-800 text-white text-3xl text-center">
+                2
+              </div>
             </div>
-            <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-              <h3 class="mb-3 font-bold text-gray-800 text-xl">
-                Signing of MOU's :{" "}
-              </h3>
-              <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
-              </p>
+            <div className="col-span-4 w-full h-full ">
+              <div className="w-full h-full p-2 md:pl-4">
+                <h1 className="text-white text-xl font-medium py-2">
+                  24th March Closing of Registrations
+                </h1>
+                <p className="text-gray-100 sm:text-sm text-xs">
+                  Deadline for the registration of startups for Expo.
+                </p>
+              </div>
             </div>
-          </div>
 
-          {/* <!-- left timeline --> */}
-          <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-            <div class="order-1 w-5/12"></div>
-            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-              <h1 class="mx-auto text-white font-semibold text-lg">4</h1>
+            <div className="col-span-4 w-full h-full ">
+              <div className="w-full h-full p-2 md:pl-4">
+                <h1 className="text-white text-xl font-medium py-2">
+                  Signing of MOUs
+                </h1>
+                <p className="text-gray-100 sm:text-sm text-xs">
+                  Shortlisted Startups will be signing the MOUs and further
+                  details will be communicated.
+                </p>
+              </div>
             </div>
-            <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-              <h3 class="mb-3 font-bold text-white text-xl">
-                Live Exhibition :{" "}
-              </h3>
-              <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
-              </p>
+            <div className="relative col-span-1 w-full h-full flex justify-center items-center">
+              <div className="h-full w-1 bg-white"></div>
+              <div className="absolute w-10 h-10 rounded-full bg-gray-800 text-white text-3xl text-center">
+                3
+              </div>
+            </div>
+            <div className="col-span-4 w-full h-full"></div>
+
+            <div className="col-span-4 w-full h-full"></div>
+            <div className="relative col-span-1 w-full h-full flex justify-center items-center">
+              <div className="h-full w-1 bg-white"></div>
+              <div className="absolute w-10 h-10 rounded-full bg-gray-800 text-white text-3xl text-center">
+                4
+              </div>
+            </div>
+            <div className="col-span-4 w-full h-full ">
+              <div className="w-full h-full p-2 md:pl-4">
+                <h1 className="text-white text-xl font-medium py-2">
+                  31st March - 2nd April Expo LIVE
+                </h1>
+                <p className="text-gray-100 sm:text-sm text-xs">
+                  Awaiting Startups to showcase their amazing ideas and
+                  products.
+                </p>
+              </div>
             </div>
           </div>
         </div>

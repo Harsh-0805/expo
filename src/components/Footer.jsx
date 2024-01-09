@@ -1,19 +1,17 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import ecellLogoWhite from "../assets/ecell_logo.png";
 
 const Footer = () => {
   return (
-
     <footer id="contact" className="bg-[#1c1c1c] text-white text-center">
       <div className="px-4 pt-16 pb-6 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <div className="flex flex-col items-center">
-              <img src={ecellLogoWhite} alt="logo" width={150} height={180}/>
+              <img src={ecellLogoWhite} alt="logo" width={150} height={180} />
               <p className="max-w-xs mt-4 text-[12px] text-white">
-                E-Cell office, 1st Floor VNIT Canteen,
-                Visvesvaraya National Institute Of Technology,
-                South Ambazari Road, Abhyankar Nagar,
+                E-Cell office, 1st Floor VNIT Canteen, Visvesvaraya National
+                Institute Of Technology, South Ambazari Road, Abhyankar Nagar,
                 Nagpur-440010
               </p>
             </div>
@@ -92,12 +90,7 @@ const Footer = () => {
                     stroke="none"
                     d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
                   />
-                  <circle
-                    cx="4"
-                    cy="4"
-                    r="2"
-                    stroke="none"
-                  ></circle>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
                 </svg>
               </Link>
               <Link
@@ -126,74 +119,114 @@ const Footer = () => {
             <div>
               <p className="font-semibold">Organisation</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
-                <a className="hover:opacity-75" href="https://www.ecellvnit.org/#about">
+                <a
+                  className="hover:opacity-75"
+                  href="https://www.ecellvnit.org/#about"
+                >
                   {" "}
                   About E-Cell{" "}
                 </a>
-                <a className="hover:opacity-75" target="_blank" rel="noreferrer" href="https://www.ecellvnit.org/team.php">
+                <a
+                  className="hover:opacity-75"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.ecellvnit.org/team"
+                >
                   {" "}
                   Meet the Team{" "}
                 </a>
-                <a className="hover:opacity-75" target="_blank" rel="noreferrer" href="https://consortium.ecellvnit.org/">
+                <a
+                  className="hover:opacity-75"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://consortium.ecellvnit.org/"
+                >
                   {" "}
-                  Consortium&apos;22{" "}
+                  Consortium&apos;23{" "}
                 </a>
-                <a className="hover:opacity-75" target="_blank" rel="noreferrer" href="https://consortium.ecellvnit.org/events.php">
+                <a
+                  className="hover:opacity-75"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://consortium.ecellvnit.org/events.php"
+                >
                   {" "}
                   Past Events{" "}
                 </a>
-
               </nav>
             </div>
             <div className="flex flex-col items-center gap-2">
               <p className="font-bold">In case of any query contact</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
                 <div className="flex gap-2 items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                    />
                   </svg>
-                  <span>
-                    Deep Swarup & Aditya Khanna
-                  </span>
+                  <span>Deep Swarup & Aditya Khanna</span>
                 </div>
                 <div className="flex gap-2 items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                    />
                   </svg>
-                  <span>
-                    +91 6200728362, +91 9174885947
-                  </span>
+                  <span>+91 6200728362, +91 9174885947</span>
                 </div>
               </nav>
             </div>
             <div>
               <p className="font-medium"></p>
               <nav className="flex flex-col space-y-2 text-sm text-white">
-                <a className="hover:opacity-75" target="_blank" rel="noreferrer" href="mailto:contact@ecellvnit.org">
+                <a
+                  className="hover:opacity-75"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="mailto:contact@ecellvnit.org"
+                >
                   {" "}
-                  For Queries and Details{" "}<br />
-                  <strong>
-                    consortium@ecellvnit.co.in
-                  </strong>
+                  For Queries and Details <br />
+                  <strong>consortium@ecellvnit.co.in</strong>
                 </a>
-                <a className="hover:opacity-75" target="_blank" rel="noreferrer" href="mailto:corporateaffairs@ecellvnit.co.in">
+                <a
+                  className="hover:opacity-75"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="mailto:corporateaffairs@ecellvnit.co.in"
+                >
                   {" "}
-                  For Association and Sponsorship:
-                  {" "}
+                  For Association and Sponsorship:{" "}
                   <strong>corporateaffairs@ecellvnit.co.in</strong>
                 </a>
               </nav>
             </div>
           </div>
         </div>
-        <p className="mt-8 text-md text-white">©
-          <span className="text-red-500">
-            { } E-CELL VNIT
-          </span>
-          { } All rights reserved.
+        <p className="mt-8 text-md text-white">
+          ©<span className="text-red-500">{} E-CELL VNIT</span>
+          {} All rights reserved.
         </p>
       </div>
-    </footer >
+    </footer>
   );
 };
 export default Footer;

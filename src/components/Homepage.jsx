@@ -54,34 +54,36 @@ function Homepage() {
             </Button>
           </div>
         </div> */}
-        <div className="bg-no-repeat bg-cover home bg-gray-900  bg-blend-difference bg-origin-border bg-center">
-          <div className=" bg-gradient-to-b from-[rgba(0,0,0,0.2)] to-[rgb(0,0,0,0.8)] bg-opacity-[0.5]">
-            {/* <Navbar /> */}
-            <div className="flex flex-col justify-center items-center text-white px-4 md:py-4 lg:py-10 xl:px-20">
-              <div className="grid grid-rows-1 gap-4 items-center">
-                <img
-                  src={Logo}
-                  alt="Expo"
-                  height={200}
-                  width={1100}
-                  className=" justify-centre items-center sm:justify-center md:justify-start contrast-100 pt-10"
-                />
+        <div className="relative w-full h-screen mx-auto">
+          <div className="bg-no-repeat bg-cover home bg-gray-900  bg-blend-difference bg-origin-border bg-center absolute inset-0 min-h-screen max-w-full ">
+            <div className="h-screen bg-gradient-to-b from-[rgba(0,0,0,0.2)] to-[rgb(0,0,0,0.8)] bg-opacity-[0.5]">
+              {/* <Navbar /> */}
+              <div className="flex flex-col justify-center items-center text-white px-4 md:py-4 lg:py-10 xl:px-20">
+                <div className="grid grid-rows-1 gap-4 items-center">
+                  <img
+                    src={Logo}
+                    alt="Expo"
+                    height={200}
+                    width={1100}
+                    className=" justify-centre items-center pt-10 sm:justify-center md:justify-start contrast-100"
+                  />
 
-                <div className="flex flex-col gap-8 md:gap-16 pt-8 justify-center items-center">
-                  <div className="flex flex-col items-center md:items-start md:flex-row justify-center gap-8 md:gap-16 w-full h-full">
-                    <a
-                      href="#reg"
-                      className="bg-gradient-to-r from-red-500 to-red-800 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg  p-4 w-3/4 md:w-1/4 lg:w-1/6 text-2xl text-center"
-                    >
-                      Register
-                    </a>
-                    <a
-                      href="https://drive.google.com/file/d/1UXup2gcrdkC8_WR1u1gMIHfyxiITEFlH/view"
-                      target="_blank"
-                      className="bg-gradient-to-r from-red-500 to-red-800 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg  p-4 w-3/4 md:w-1/4 lg:w-1/6 text-2xl text-center"
-                    >
-                      Brochure
-                    </a>
+                  <div className="flex flex-col gap-8 md:gap-16 pt-8 justify-center items-center">
+                    <div className="flex flex-col items-center md:items-start md:flex-row justify-center gap-8 md:gap-16 w-full h-full">
+                      <a
+                        href="#reg"
+                        className="bg-gradient-to-r from-red-500 to-red-800 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg  p-4 w-3/4 md:w-1/4 lg:w-1/6 text-2xl text-center"
+                      >
+                        Register
+                      </a>
+                      <a
+                        href="https://drive.google.com/file/d/1UXup2gcrdkC8_WR1u1gMIHfyxiITEFlH/view"
+                        target="_blank"
+                        className="bg-gradient-to-r from-red-500 to-red-800 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg  p-4 w-3/4 md:w-1/4 lg:w-1/6 text-2xl text-center"
+                      >
+                        Brochure
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
