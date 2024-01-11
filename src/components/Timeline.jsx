@@ -20,7 +20,7 @@ const Timeline = () => {
       id="timeline"
       className="flex bg flex-col items-center justify-center h-full"
     >
-      <h2 className="mb-2 pt-7 text-3xl text-center py-4 font-bold text-[#ff5757] sm:text-4xl md:text-[40px]">
+      <h2 className="mb-2 pt-7 text-5xl text-red-600 text-center py-4 font-bold uppercase">
         Timeline
       </h2>
       <ol className="relative p-4 max-w-2xl">
