@@ -7,3 +7,7 @@
   background-image: url("../assets/ai.png");
   background-attachment: fixed;
 }
+
+html {
+  scroll-behavior: smooth;
+}

@@ -14,81 +14,9 @@ export default function Register() {
       className="bg-black flex flex-col justify-center items-center "
     >
       <h1 className="text-5xl text-red-600 mt-10 font-bold">REGISTER NOW</h1>
-      <div className={`${mode == 0 ? "flex" : "hidden"} flex-col m-20`}>
-        <button
-          className=" p-5 hover:bg-red-500 hover:border-white hover:border-2 shadow-md shadow-red-500 m-2 text-2xl text-white border-red-600 border rounded-2xl"
-          onClick={participant}
-        >
-          Register as a Participant
-        </button>
-        <button
-          className=" p-5 hover:bg-red-500 hover:border-white hover:border-2 shadow-md shadow-red-500 m-2 text-2xl text-white border-red-600 border rounded-2xl"
-          onClick={startup}
-        >
-          Register as a StartUp
-        </button>
-      </div>
+
       <div
-        className={`${
-          mode == 1 ? "flex flex-col" : "hidden"
-        } mt-10 w-1/2 mx-5 bg-neutral-950 p-2 text-white border-red-600 border-2 rounded-2xl`}
-      >
-        <div className="h-1/7 flex justify-center items-center">
-          <p className="text-red-600 text-2xl">Register As a Participant</p>
-        </div>
-        <form action="\" className=" flex flex-col h-6/7">
-          <div className="h-1/5 flex flex-col">
-            <label htmlFor="" className="mt-3">
-              Full Name<span className="text-red-600">*</span>
-            </label>
-            <input
-              className="text-black"
-              placeholder="Enter your Name"
-              type="text"
-            />
-          </div>
-          <div className="h-1/5 flex flex-col">
-            <label htmlFor="" className="mt-3">
-              Mobile Number<span className="text-red-600">*</span>
-            </label>
-            <input
-              className="text-black"
-              placeholder="Enter your Contact Number"
-              type="text"
-            />
-          </div>
-          <div className="h-1/5 flex flex-col">
-            <label htmlFor="" className="mt-3">
-              Email<span className="text-red-600">*</span>
-            </label>
-            <input
-              className="text-black"
-              placeholder="Enter your email"
-              type="text"
-            />
-          </div>
-          <div className="h-1/5 flex flex-col">
-            <label htmlFor="" className="mt-3">
-              Are you a VNIT, Nagpur Student/Alumni?
-              <span className="text-red-600">*</span>
-            </label>
-            <div className="flex justify-start">
-              <div className="mx-5">
-                <label htmlFor="">Yes</label>
-                <input className="text-black" name="student" type="radio" />
-              </div>
-              <div className="mx-5">
-                <label htmlFor="">No</label>
-                <input className="text-black" name="student" type="radio" />
-              </div>
-            </div>
-          </div>
-        </form>
-      </div>
-      <div
-        className={`${
-          mode == 2 ? "flex flex-col" : "hidden"
-        } mt-10 w-1/2 mx-5 bg-neutral-950 p-2 text-white border-red-600 border-2 rounded-2xl`}
+        className={`${"flex flex-col"} mt-10 w-5/6 md:w-1/2 mx-5 bg-neutral-950 p-2 text-white border-red-600 border-2 rounded-2xl`}
       >
         <div className="h-1/7 flex justify-center items-center">
           <p className="text-red-600 text-2xl">Register as a Startup</p>
@@ -150,15 +78,15 @@ export default function Register() {
           </div>
         </form>
       </div>
-      <div className={`${mode == 0 ? "hidden" : "flex"}  justify-center my-3`}>
+      <div className="flex justify-center my-3">
         <input type="checkbox" className="mt-1" name="" id="" />
         <label htmlFor="" className="ml-2 text-white">
           I hereby declare that i have read the Brochure and the details
           furnished above are correct to best of my Knowledge.
         </label>
       </div>
-      <div className={`${mode == 0 ? "hidden" : "flex"}  justify-center my-3`}>
-        <button className="bg-red-500 py-4 px-8 text-base text-white">
+      <div className={` "flex"  justify-center my-3`}>
+        <button className="rounded bg-red-500 py-4 px-8 text-base text-white">
           REGISTER
         </button>
       </div>

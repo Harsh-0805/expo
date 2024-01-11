@@ -15,7 +15,7 @@ function Homepage() {
   return (
     <>
       <div className="">
-        <Navbar fluid className="bg-red-700  w-full z-10">
+        <Navbar fluid className="bg-black  w-full z-10">
           <NavbarBrand>
             <a href="https://www.ecellvnit.org/">
               <img src={Ecell} alt="logo" className="mr-3 h-[50px] md:h-9" />
@@ -36,8 +36,8 @@ function Homepage() {
             <NavbarLink href="#timeline" className="text-white text-2xl">
               Timeline
             </NavbarLink>
-            <NavbarLink href="#" className="text-white text-2xl">
-              Brochure
+            <NavbarLink href="#reg" className="text-white text-2xl">
+              Register
             </NavbarLink>
             <NavbarLink href="#contact" className="text-white text-2xl">
               Contact Us
@@ -56,7 +56,7 @@ function Homepage() {
         </div> */}
         <div className="relative w-full h-screen mx-auto">
           <div className="bg-no-repeat bg-cover home bg-gray-900  bg-blend-difference bg-origin-border bg-center absolute inset-0 min-h-screen max-w-full ">
-            <div className="h-screen bg-gradient-to-b from-[rgba(0,0,0,0.2)] to-[rgb(0,0,0,0.8)] bg-opacity-[0.5]">
+            <div className="h-screen bg-gradient-to-b from-[rgba(0,0,0,0.2)] to-[rgb(0,0,0,0.8)]">
               {/* <Navbar /> */}
               <div className="flex flex-col justify-center items-center text-white px-4 md:py-4 lg:py-10 xl:px-20">
                 <div className="grid grid-rows-1 gap-4 items-center">
