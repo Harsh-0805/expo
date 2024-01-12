@@ -1,11 +1,6 @@
-.timeline {
-  background-image: url("../assets/red-grunge-background.jpg");
-  background-attachment: fixed;
-}
-
 .home {
   background-image: url("../assets/ai.png");
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 html {
