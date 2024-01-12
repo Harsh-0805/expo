@@ -1,7 +1,7 @@
 // Api.js
 import axios from 'axios';
 
-const baseURL = 'http://localhost:5000/api';
+const baseURL = 'https://sue-backend.onrender.com/api';
 
 export const registerUser = async (formData) => {
   try {
