@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  Button,
   Navbar,
   NavbarBrand,
   NavbarCollapse,
@@ -10,6 +9,7 @@ import {
 import Logo from "../assets/Expo.png";
 import Ecell from "../assets/ecell-white-img.webp";
 import "./global.css";
+import brochure from "../assets/brochure.pdf";
 
 function Homepage() {
   return (
@@ -77,8 +77,10 @@ function Homepage() {
                         Register
                       </a>
                       <a
-                        href="https://drive.google.com/file/d/1UXup2gcrdkC8_WR1u1gMIHfyxiITEFlH/view"
                         target="_blank"
+                        rel="noreferrer"
+                        href={brochure}
+                        download="StartUp Expo Brochure.pdf"
                         className="bg-gradient-to-r from-red-500 to-red-800 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg  p-4 w-3/4 md:w-1/4 lg:w-1/6 text-2xl text-center"
                       >
                         Brochure
