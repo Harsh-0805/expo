@@ -5,6 +5,7 @@ import about from "../assets/aboutexpo.png";
 const AboutSection = () => {
   return (
     <>
+    
       {/* <div className="bg-auto sm:bg-cover md:bg-cover lg:bg-cover xl:bg-cover ... bg-[url(https://media.istockphoto.com/id/1321467830/vector/red-abstract-background-abstract-luxury-red-background-valentine-layout-design-studio-room.jpg?s=612x612&w=0&k=20&c=HMi9eratTzZlDAvk-vLjpsa3TKSxjwTyWfeWLxGKoRQ=)]">
         <h1 className="text-center text-6xl font-bold pt-5 text-white">
           ABOUT STARTUP EXPO
